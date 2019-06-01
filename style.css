@@ -6,6 +6,6 @@ body {
 h1 {
   color: maroon;
   margin-left: 40px;
-  font: Helvetica;
+  /* font: Helvetica; */
   font-family: 'Antic';font-size: 22px;
 }
