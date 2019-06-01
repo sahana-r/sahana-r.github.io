@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Antic');
+@import url('https://fonts.googleapis.com/css?family=Copse');
 body {
   background-color: linen;
   font-family: 'Antic';font-size: 22px;
 }
 
 h1 { 
-    font-family: Antic; 
+    font-family: 'Copse'; 
     font-size: 24px; 
     font-style: normal; 
     font-variant: normal; 
