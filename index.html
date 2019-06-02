@@ -8,14 +8,19 @@
      <div class="background">
             <div class="headerBanner">
                     <div class="tab">
-                            <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+                            <!-- <button class="tablinks" onclick="openCity(event, 'London')">London</button>
                             <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-                            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->
+                            <button class="tablinks" onclick="openAbout()">About</button>
                             <button class="tablinks" onclick="openResume()">Resume</button>
                             <button class="tablinks" onclick="openLinkedIn()">LinkedIn</button>
                             <button class="tablinks" onclick="openGithub()">Github</button>
                           </div>
-                          <div id="London" class="tabcontent">
+                          <div id="About" class="aboutContent">
+                                <h1>Sahana Rangarajan</h1>
+                                <p>Say some stuff about yourself here</p>
+                          </div>
+                          <!-- <div id="London" class="tabcontent">
                                 <h3>London</h3>
                                 <p>London is the capital city of England.</p>
                               </div>
@@ -28,36 +33,9 @@
                               <div id="Tokyo" class="tabcontent">
                                 <h3>Tokyo</h3>
                                 <p>Tokyo is the capital of Japan.</p>
-                              </div>
+                              </div> -->
                               
-                              <script>
-                              function openCity(evt, cityName) {
-                                var i, tabcontent, tablinks;
-                                tabcontent = document.getElementsByClassName("tabcontent");
-                                for (i = 0; i < tabcontent.length; i++) {
-                                  tabcontent[i].style.display = "none";
-                                }
-                                tablinks = document.getElementsByClassName("tablinks");
-                                for (i = 0; i < tablinks.length; i++) {
-                                  tablinks[i].className = tablinks[i].className.replace(" active", "");
-                                }
-                                document.getElementById(cityName).style.display = "block";
-                                evt.currentTarget.className += " active";
-                              }
-
-                              function openLinkedIn() {
-                                //   location.href='https://www.linkedin.com/in/sahana-r/';
-                                window.open('https://www.linkedin.com/in/sahana-r/');
-                              }
-
-                              function openGithub() {
-                                  window.open('http://github.com/sahana-r');
-                              }
-
-                              function openResume() {
-                                  window.open('sahana_grad_resume.pdf','_blank');
-                              }
-                              </script>
+                              
                                  
                 </div>
             <div class="titleContainer">
@@ -65,6 +43,42 @@
             </div>
      </div>   
 
+     <script>
+            function openAbout() {
+                //make my name disappear from the center
+                title = document.getElementByClassName("title");
+                title.style.display = "none";
+                abt = document.getElementById("About");
+                abt.style.display = "block";
+                 
+            }
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+
+        function openLinkedIn() {
+          //   location.href='https://www.linkedin.com/in/sahana-r/';
+          window.open('https://www.linkedin.com/in/sahana-r/');
+        }
+
+        function openGithub() {
+            window.open('http://github.com/sahana-r');
+        }
+
+        function openResume() {
+            window.open('sahana_grad_resume.pdf','_blank');
+        }
+        </script>
 
 
 
