@@ -18,7 +18,7 @@ body, html {
   } */
 
 .background {
-    background-image: url("20190601_171221.jpg");
+    background-image: url("assets/20190601_171221.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
