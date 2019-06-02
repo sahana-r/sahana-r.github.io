@@ -77,8 +77,10 @@ pre {
     color: oldlace;
     height: 40px;
     position: absolute;
-    width: 100%;
+    width: 400px%;
     padding-bottom: 10px;
+    opacity: 0.75;
+    border-radius: 0px 0px 20px;
 }
 
 .titleContainer {
@@ -104,7 +106,7 @@ pre {
     position: absolute;
     top: 0;
     overflow: hidden;
-    background-color: inherit;
+    background-color: None;
     text-align: center;
   
   }
