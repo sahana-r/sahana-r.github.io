@@ -129,6 +129,14 @@ pre {
     width: 100%;
     height: 100%;
     background-color: rgb(21, 4, 51, 0.5);
-    display: none;    
+    display: none;   
+    color: oldlace;
+    font-family: 'Copse'; 
+    font-size: 34px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 800; 
+    line-height: 26.4px;
+    vertical-align: middle; 
     
   }
