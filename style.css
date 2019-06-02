@@ -81,12 +81,14 @@ pre {
 }
 
 .titleContainer {
+    display: table; 
     text-align: center; 
     width: 100%;
     height: 100%;
 }
 
 .title {
+    display: table-cell;
     color: oldlace;
     font-family: 'Copse'; 
     font-size: 34px; 
