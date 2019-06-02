@@ -18,7 +18,7 @@ body, html {
   } */
 
 .background {
-    background-image: url("assets/20190601_171221.jpg");
+    background-image: url("assets/IMG_3068.JPG");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,9 +75,10 @@ pre {
 .headerBanner {
     background-color: rgb(21, 4, 51);
     color: oldlace;
-    height: 100px;
+    height: 40px;
     position: absolute;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .titleContainer {
