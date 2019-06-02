@@ -139,3 +139,10 @@ pre {
     vertical-align: middle; 
     
   }
+
+  .closeButton {
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-family: Antic;
+  }
