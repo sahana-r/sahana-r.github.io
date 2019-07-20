@@ -9,7 +9,7 @@
      <div class="background">
             <div class="headerBanner">
                     <div class="tab">
-                            <a href="#About" class="button">About</a>
+                            <button onclick="openAbout()">About</button>
                             <button onclick="openResume()">Resume</button>
                             <button onclick="openLinkedIn()">LinkedIn</button>
                             <button onclick="openGithub()">Github</button>
@@ -34,12 +34,7 @@
 
      <script>
             function openAbout() {
-                //make my name disappear from the center
-                title = document.getElementById("name");
-                title.style.display = "none";
-                abt = document.getElementById("About");
-                abt.style.display = "table-cell";
-                
+                location.href = '#About'
             }
             function closeAbout() {
                 title = document.getElementById("name");
