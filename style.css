@@ -225,6 +225,11 @@ transition: 0.3s;
     display: none;
   }
 
+  .card button {
+    position: relative;
+    right: 0px;
+  }
+
   .lines {
     height: 100%;
     background-image: repeating-linear-gradient(oldlace 0px, oldlace 24px, sienna 25px);

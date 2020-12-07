@@ -33,6 +33,7 @@
                     <button onClick="openAtAGlance()">At a glance</button>
                 </div>
                 <div id="atAGlance" class="card">
+                    <button onClick="closeCard()">X</button>
                     <div class="lines">
                     <div class="cardContent">
                         <span style="color:slateblue;font-weight:bold">NAME: </span>Sahana Rangarajan
@@ -88,6 +89,10 @@
         function openAtAGlance() {
             atAGlanceCard = document.getElementById("atAGlance");
             atAGlance.style.display = "block"
+        }
+        function closeCard() {
+            card = document.getElementByClassName("Card");
+            card.style.display = "none";
         }
         </script>
 
