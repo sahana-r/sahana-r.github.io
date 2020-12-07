@@ -206,6 +206,11 @@ transition: 0.3s;
   font-weight: bolder;
 }
 
+.flexBox {
+  display: flex;
+  background-color: inherit;
+}
+
   .card {
     width: 600px;
     position: relative;
