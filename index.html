@@ -52,6 +52,17 @@
                         <span style="color:slateblue;font-weight:bold">SKILLS: </span>Cloud (service development, automation); iOS (development, automation); system architecture/design (network, DBMS)    
                     </div>
                 </div>
+                <div id="publications" class="card">
+                    <button onClick="closePublications()">X</button>
+                    <div class="lines">
+                    <div class="cardContent">
+                        <span style="color:slateblue;font-weight:bold">Pub1: </span>Test
+                        <br><br>   
+                    </div>
+                </div>
+                <div class="aboutBubble">
+                    <button onClick="openPublications()">Publications</button>
+                </div>
             </div>   
         </div>
     </div>
@@ -94,6 +105,14 @@
         function closeAtAGlance() {
             atAGlanceCard = document.getElementById("atAGlance")
             atAGlanceCard.style.display = "none"
+        }
+        function openPublications() {
+            pubCard = document.getElementById("publications")
+            pubCard.style.display = "block"
+        }
+        function closePublications() {
+            pubCard = document.getElementById("publications")
+            pubCard.style.display = "none"
         }
         </script>
 
