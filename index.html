@@ -108,6 +108,10 @@
             atAGlanceCard.style.display = "none"
         }
         function openPublications() {
+            let openCards = document.getElementsByClassName("card");
+            if(openCards) {
+                openCards[0].style.display = "none";
+            }
             pubCard = document.getElementById("publications")
             pubCard.style.display = "block"
         }
