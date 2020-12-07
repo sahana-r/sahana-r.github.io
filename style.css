@@ -222,6 +222,7 @@ transition: 0.3s;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 1%;
+    display: none;
   }
 
   .lines {
@@ -241,6 +242,4 @@ transition: 0.3s;
     vertical-align: middle; 
     padding-top: 1px;
     text-align: left;
-    display: none;
-
   }
