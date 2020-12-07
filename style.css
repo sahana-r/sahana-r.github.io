@@ -139,7 +139,7 @@ pre {
     background-image: url("assets/sahanarangarajan.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 50% 50%;
+    background-size: 30%;
     background-color: rgb(21, 4, 51);
     color: oldlace;
     font-family: 'Copse'; 
@@ -231,6 +231,7 @@ transition: 0.3s;
         width: 600px;
     position: relative;
     margin: 20px auto;
+    margin-bottom: 0px; 
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: oldlace;
