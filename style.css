@@ -186,6 +186,8 @@ transition: 0.3s;
 .aboutBubbleLeftWrapper {
   width: 200px;
   height: 100%;
+  position: absolute;
+  left: 0px;
 }
 .aboutBubble {
   background-image: radial-gradient(farthest-corner at 20px 20px, mintcream 10%, #beffbe 100%);
