@@ -226,8 +226,11 @@ transition: 0.3s;
   }
 
   .card button {
-    position: relative;
-    right: 0px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background-color: slateblue;
+    color: mintcream;
   }
 
   .lines {
