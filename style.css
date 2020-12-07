@@ -184,23 +184,26 @@ transition: 0.3s;
 }
 
 .aboutBubble {
-  background-color: honeydew;
-  width: 100px;
-  height: 100px;
+  background-image: radial-gradient(farthest-corner at 20px 20px, mintcream 10%, #beffbe 100%);
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  box-shadow: 10px 20px black; 
+  box-shadow: 10px 20px black;
 }
 
 .aboutBubble button {
   background-color: inherit;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
   cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-    color: oldlace;
-    font-family: Antic;
-     
-
+  transition: 0.3s;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: darkslateblue;
+  font-family: Antic;
+  font-weight: bolder;
 }
 
   .card {
@@ -214,12 +217,12 @@ transition: 0.3s;
     display: none;
   }
 
-  #lines {
+  .lines {
     height: 100%;
     background-image: repeating-linear-gradient(oldlace 0px, oldlace 24px, sienna 25px);
   }
 
-  #cardContent {
+  .cardContent {
     width: 100%;
     color: darkslategray;
     font-family: 'Antic'; 
