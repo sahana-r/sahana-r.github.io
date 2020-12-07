@@ -185,16 +185,14 @@ transition: 0.3s;
 
 .aboutBubbleLeftWrapper {
   width: 200px;
-  height: 100%;
   position: absolute;
-  left: 0px;
+  left: 10px;
 }
 
 .aboutBubbleRightWrapper {
   width: 200px;
-  height: 100%;
   position: absolute;
-  right: 0px;
+  right: 10px;
 }
 
 .aboutBubble {
@@ -203,6 +201,7 @@ transition: 0.3s;
   height: 200px;
   border-radius: 50%;
   box-shadow: 10px 20px black;
+  margin-bottom: 60px;
 }
 
 .aboutBubble button {

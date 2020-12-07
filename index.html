@@ -68,11 +68,11 @@
                     <button onClick="closePublications()">X</button>
                     <div class="lines">
                         <div class="cardContent">
-                            Generation Expansion Analysis in Low Data Settings (link)
+                            Generation Expansion Analysis in Low Data Settings (<a href="https://ieeexplore.ieee.org/abstract/document/8521110">link</a>)
                             <br><br> 
-                            An Object Detection Database Creation System (link)
+                            An Object Detection Database Creation System (<a href="http://people.cs.uchicago.edu/~skr/technical-reports/tr002432-56.pdf">link</a>)
                             <br><br>
-                            Daily Californian writer profile (link)  
+                            Daily Californian writer profile (<a href="https://www.dailycal.org/author/srangarajan/">link</a>)  
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,8 @@
         function openAtAGlance() {
             let openCards = document.getElementsByClassName("card");
             if(openCards) {
-                openCards[0].style.display = "none";
+                openCards[1].style.display = "none";
+                openCards[2].style.display = "none";
             }
             atAGlanceCard = document.getElementById("atAGlance");
             atAGlanceCard.style.display = "block"
@@ -137,6 +138,7 @@
             let openCards = document.getElementsByClassName("card");
             if(openCards) {
                 openCards[0].style.display = "none";
+                openCards[2].style.display = "none";
             }
             pubCard = document.getElementById("publications")
             pubCard.style.display = "block"
@@ -149,6 +151,7 @@
             let openCards = document.getElementsByClassName("card");
             if(openCards) {
                 openCards[0].style.display = "none";
+                openCards[2].style.display = "none";
             }
             pubCard = document.getElementById("card3")
             pubCard.style.display = "block"
