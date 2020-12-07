@@ -28,7 +28,10 @@
              <button onClick="goHome()"></button>
          </div>
             <h1>About me</h1>
-            <div id="card">
+            <div class="aboutBubble">
+                <button onClick="openAtAGlance()">At a glance</button>
+            </div>
+            <div id="atAGlance" class="card">
                 <div id="lines">
                    <div id="cardContent">
                     <span style="color:slateblue;font-weight:bold">NAME: </span>Sahana Rangarajan
@@ -79,6 +82,10 @@
         }
         function goHome() {
             location.href='#Home'
+        }
+        function openAtAGlance() {
+            atAGlanceCard = document.getElementById("atAGlance");
+            atAGlance.style.display = "block"
         }
         </script>
 
