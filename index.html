@@ -84,8 +84,7 @@
                             <br><br>   
                         </div>
                     </div>
-                </div>
-                
+                </div> 
             </div>   
         </div>
     </div>
@@ -122,11 +121,7 @@
             location.href='#Home'
         }
         function openAtAGlance() {
-            let openCards = document.getElementsByClassName("card");
-            if(openCards) {
-                openCards[1].style.display = "none";
-                openCards[2].style.display = "none";
-            }
+            closeAllCards()
             atAGlanceCard = document.getElementById("atAGlance");
             atAGlanceCard.style.display = "block"
         }
@@ -135,11 +130,7 @@
             atAGlanceCard.style.display = "none"
         }
         function openPublications() {
-            let openCards = document.getElementsByClassName("card");
-            if(openCards) {
-                openCards[0].style.display = "none";
-                openCards[2].style.display = "none";
-            }
+            closeAllCards()
             pubCard = document.getElementById("publications")
             pubCard.style.display = "block"
         }
@@ -148,17 +139,24 @@
             pubCard.style.display = "none"
         }
         function openCard3() {
-            let openCards = document.getElementsByClassName("card");
-            if(openCards) {
-                openCards[0].style.display = "none";
-                openCards[2].style.display = "none";
-            }
+            closeAllCards();
             pubCard = document.getElementById("card3")
             pubCard.style.display = "block"
         }
         function closeCard3() {
             pubCard = document.getElementById("card3")
             pubCard.style.display = "none"
+        }
+        function closeAllCards() {
+            let openCards = document.getElementsByClassName("card");
+            var i;
+            var openCard;
+            for (i = 0; i < openCards.length; i++) {
+                openCard = openCards[i];
+                if (openCard) {
+                    openCard.style.display = "none";
+                }
+            }
         }
         </script>
 
