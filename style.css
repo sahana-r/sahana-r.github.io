@@ -162,18 +162,18 @@ pre {
   }
 
   .homeButton {
-    background-color: oldlace;
-    
     height: 40px;
     width: 40px;
     position: absolute;
     padding-bottom: 10px;
-    border-radius: 0px 0px 20px;
 }
 
 .homeButton button {
   background-color: inherit;
   background-image: url("assets/icons8-home-64.png");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   float: left;
 border: none;
 outline: none;
