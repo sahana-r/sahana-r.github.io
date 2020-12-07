@@ -163,7 +163,6 @@ pre {
 
   #card {
     width: 600px;
-    height: 700px;
     position: relative;
     margin: 20px auto;
     padding-top: 40px;
@@ -179,13 +178,13 @@ pre {
 
   #cardContent {
     width: 100%;
-    color: slateblue;
-    font-family: 'Copse'; 
-    font-size: 34px; 
+    color: darkslategray;
+    font-family: 'Antic'; 
+    font-size: 20px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 800; 
-    line-height: 26.4px;
+    line-height: 25px;
     vertical-align: middle; 
     padding-top: 1px;
     text-align: left;
