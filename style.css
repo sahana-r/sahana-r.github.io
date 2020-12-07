@@ -161,6 +161,27 @@ pre {
      1px 1px 0 #000;
   }
 
+  .homeButton {
+    background-color: oldlace;
+    
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 20px;
+}
+
+.homeButton button {
+  background-color: inherit;
+  background-image: url("assets/icons8-home-64.png");
+  float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+}
+
   #card {
     width: 600px;
     position: relative;

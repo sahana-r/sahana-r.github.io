@@ -24,23 +24,26 @@
             
      </div>   
      <div id="About" class="aboutContent">
+         <div class="homeButton">
+             <button onClick="goHome()"></button>
+         </div>
             <h1>About me</h1>
             <div id="card">
                 <div id="lines">
                    <div id="cardContent">
-                    <span style="color:slateblue;font:Copse;font-size:35px">NAME: </span>Sahana Rangarajan
+                    <span style="color:slateblue;font-weight:bold">NAME: </span>Sahana Rangarajan
                     <br><br>
-                    SCHOOL: UC Berkeley (graduated Fall 2018 w/ BS in EECS)
+                    <span style="color:slateblue;font-weight:bold">SCHOOL: </span>UC Berkeley (graduated Fall 2018 w/ BS in EECS)
                     <br><br>
-                    EMPLOYMENT: Software Development Engineer in Test at Sonos (Cloud Services)
+                    <span style="color:slateblue;font-weight:bold">EMPLOYMENT: </span>Software Development Engineer in Test at Sonos (Cloud Services)
                     <br><br>
-                    INTERESTS: Systems
+                    <span style="color:slateblue;font-weight:bold">INTERESTS: </span>Systems
                     <br><br>
-                    LANGUAGES: Python, Java, Swift, C, C++, Obj-C, Javascript, Typescript, HTML, CSS, PHP, Groovy, SQL, MatLab
+                    <span style="color:slateblue;font-weight:bold">LANGUAGES: </span>Python, Java, Swift, C, C++, Obj-C, Javascript, Typescript, HTML, CSS, PHP, Groovy, SQL, MatLab
                     <br><br>   
-                    EXPERIENCED WITH: AWS, Earl Grey, Jest, Kubernetes, Docker, MySQL, Cypress, Jenkins, Snowflake, Tableau, Artifactory
+                    <span style="color:slateblue;font-weight:bold">EXPERIENCED WITH: </span>AWS, Earl Grey, Jest, Kubernetes, Docker, MySQL, Cypress, Jenkins, Snowflake, Tableau, Artifactory
                     <br><br>
-                    SKILLS: Cloud (service development, automation); iOS (development, automation); system architecture/design (network, DBMS)    
+                    <span style="color:slateblue;font-weight:bold">SKILLS: </span>Cloud (service development, automation); iOS (development, automation); system architecture/design (network, DBMS)    
                 </div>
             </div>
         </div>   
@@ -73,6 +76,9 @@
 
         function openDailyCal() {
             window.open('https://www.dailycal.org/author/srangarajan/');
+        }
+        function goHome() {
+            location.href='sahana-r.github.io'
         }
         </script>
 
