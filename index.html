@@ -88,13 +88,11 @@
         }
         function openAtAGlance() {
             atAGlanceCard = document.getElementById("atAGlance");
-            atAGlance.style.display = "block"
+            atAGlanceCard.style.display = "block"
         }
-        function closeCard() {
-            openCards = document.getElementsByClassName("card");
-            [openCards].forEach(openCard => 
-                openCard.style.display = "none"
-            )
+        function closeAtAGlance() {
+            atAGlanceCard = document.getElementById("atAGlance")
+            atAGlanceCard.style.display = "none"
         }
         </script>
 
