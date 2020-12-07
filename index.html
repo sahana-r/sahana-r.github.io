@@ -29,9 +29,6 @@
          </div>
             <h1>About me</h1>
             <div class="flexBox">
-                <div class="aboutBubble">
-                    <button onClick="openAtAGlance()">At a glance</button>
-                </div>
                 <div class="card">
                     <div class="lines">
                     <div id="atAGlance" class="cardContent">
@@ -48,6 +45,9 @@
                         <span style="color:slateblue;font-weight:bold">EXPERIENCED WITH: </span>AWS, Earl Grey, Jest, Kubernetes, Docker, MySQL, Cypress, Jenkins, Snowflake, Tableau, Artifactory
                         <br><br>
                         <span style="color:slateblue;font-weight:bold">SKILLS: </span>Cloud (service development, automation); iOS (development, automation); system architecture/design (network, DBMS)    
+                    </div>
+                    <div class="aboutBubble">
+                        <button onClick="openAtAGlance()">At a glance</button>
                     </div>
                 </div>
             </div>   
@@ -87,7 +87,7 @@
         }
         function openAtAGlance() {
             atAGlanceCard = document.getElementById("atAGlance");
-            atAGlance.style.display = "inline"
+            atAGlance.style.display = "block"
         }
         </script>
 
