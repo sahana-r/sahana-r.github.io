@@ -62,8 +62,20 @@
                         </div>
                     </div>
                 </div>
+                <div id="card3" class="card">
+                    <button onClick="closeCard3()">X</button>
+                    <div class="lines">
+                        <div class="cardContent">
+                            <span style="color:slateblue;font-weight:bold">Card3: </span>Test
+                            <br><br>   
+                        </div>
+                    </div>
+                </div>
                 <div class="aboutBubble">
                     <button onClick="openPublications()">Publications</button>
+                </div>
+                <div class="aboutBubble">
+                    <button onClick="openCard3()">Card 3</button>
                 </div>
             </div>   
         </div>
@@ -101,6 +113,10 @@
             location.href='#Home'
         }
         function openAtAGlance() {
+            let openCards = document.getElementsByClassName("card");
+            if(openCards) {
+                openCards[0].style.display = "none";
+            }
             atAGlanceCard = document.getElementById("atAGlance");
             atAGlanceCard.style.display = "block"
         }
@@ -118,6 +134,18 @@
         }
         function closePublications() {
             pubCard = document.getElementById("publications")
+            pubCard.style.display = "none"
+        }
+        function openCard3() {
+            let openCards = document.getElementsByClassName("card");
+            if(openCards) {
+                openCards[0].style.display = "none";
+            }
+            pubCard = document.getElementById("card3")
+            pubCard.style.display = "block"
+        }
+        function closeCard3() {
+            pubCard = document.getElementById("card3")
             pubCard.style.display = "none"
         }
         </script>
